@@ -24,7 +24,7 @@ As we can see it treats resource reference as actual link points to the resource
 
 **Open questions**
  - Felt like too much links , while using HAL browser i lost myself , how to navigate and each time I loaded HAL browser home url manually as i don't know how to go back to all resources. Need to know am i doing properly ? and sometimes Hypermedia is too much for this simple project , eventhough it eases rest creation.
- - Handling of entire contact creation with phone number as single rest call - Scenario is i'm creating full contact - from UI ,assume user will input all details including contact and contact phone entities.At this time i struggled like Rest forces me to split this scenario into two steps
-        - First Create a contact with post
+ - Handling of entire contact creation with phone number as single rest call - Scenario is i'm creating full contact - from UI ,assume user will input all details including contact and contact phone entities.At this time i struggled like Rest forces me to split this scenario into two steps<br>
+        - First Create a contact with post<br>
         - Then create phone number for contact so that , i have reference url to link phone number with contact created in last step.<br>
        Is there any way to do it in a single steps ? or this is need for going manual restcontroller as we need service layer to group this unit of work - contact creation.
